@@ -1,0 +1,45 @@
+.cal {
+    background-color: #191A1C;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.number1, .number2 {
+    background-color: #3A3D42;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 7px 0;
+    outline: none;
+    color: whitesmoke;
+}
+.answer {
+    background-color: #3A3D42;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 7px 0;
+    outline: none;
+    color: whitesmoke;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.plus, .subtr, .multipli, .divi {
+    width: 40%;
+    margin: 7px 0;
+    background-color: #121314;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 7px;
+}
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
